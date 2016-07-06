@@ -1,0 +1,42 @@
+/* line 3, ../sass/_header.sass */
+header {
+  background-color: #87509c;
+}
+
+/* line 7, ../sass/_header.sass */
+.navbar-fixed-top {
+  background-color: #87509c;
+}
+/* line 10, ../sass/_header.sass */
+.navbar-fixed-top a {
+  color: white;
+}
+
+/* line 14, ../sass/_header.sass */
+.navbar-header img {
+  height: 30px;
+  width: auto;
+}
+
+/* line 18, ../sass/_header.sass */
+.navbar > .navbar-collapse > .collapse > a:hover {
+  background-color: #5b366a;
+  border-radius: 10px;
+  color: black;
+}
+
+/* line 23, ../sass/_header.sass */
+.jumbotron {
+  height: 600px;
+  background-color: #87509c;
+}
+/* line 28, ../sass/_header.sass */
+.jumbotron h3 {
+  color: white;
+  margin-top: 145px;
+}
+
+/* line 4, ../sass/main.sass */
+body {
+  margin: 0;
+}
