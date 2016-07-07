@@ -1,3 +1,5 @@
+@import "./_vars.sass"
+
 .jumbotron-custom1
   height: 600px
   background:
@@ -8,6 +10,18 @@
       top: 200px
       bottom: 80px
 
+.btn-work
+  font-size: 18px
+  background-color: #eb7d4b
+  border-bottom: 3px solid
+  border-color: #c86a40
+  color: white
+  padding: 23px 45px
+
+  &:hover
+    background-color: #c86a40
+    color: white
+
 .jumbotron-custom2
   min-height: 750px
   background:
@@ -15,7 +29,12 @@
 
 
 
-
+#lines
+  display: block
+  margin: 0 auto
+  width: 85px
+  height: 5px
+  background-color: #c8d9e5
 
 
 //3rd Secton Here
@@ -24,5 +43,59 @@
   background:
     color: #e7f1f8
 
-  h1, h4, h6, p
+  img
+    margin-bottom: 40px
+
+  h1, h4, p
     color: #3c4761
+
+  h5
+    color: #30bae7
+    font-weight: bold
+
+  h4, h1
+    font-weight: bold
+
+//4th Section Here
+.jumbotron-custom4
+  min-height: 700px
+  background-color: white
+
+  h1, h4, p
+    color: #3c4761
+    font-weight: bold
+
+  p
+    font-weight: normal
+
+.jumbotron-custom5
+  min-height: 1400px
+  background-color: #ffdd99
+
+  #lines
+    background-color: #e5c37f
+
+  h1, h4, p
+    color: $black
+    font-weight: bold
+
+  p
+    font-weight: normal
+
+  .btn-custom
+    background-color: #ebc985
+    color: $black
+
+    &:hover, &:focus
+      background-color: white
+
+  .btn-custom2
+    font-size: 18px
+    background-color: #17c2a4
+    border-bottom: 3px solid
+    border-color: #14a58c
+    color: white
+    padding: 23px 45px
+
+    &:hover
+      background-color: #14a58c

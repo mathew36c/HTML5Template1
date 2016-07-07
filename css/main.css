@@ -5,16 +5,20 @@ header {
   background-color: #87509c;
   height: 56px; }
 
-#link {
-  color: white; }
-  #link:hover {
+ul.nav a {
+  color: white;
+  padding: 5px 15px;
+  display: inline-block;
+  margin-top: 10px; }
+  ul.nav a:hover, ul.nav a:focus {
     background-color: #643a79;
-    border-radius: 7px; }
+    border-radius: 5px; }
 
 .navbar-header img {
   height: 30px;
   width: auto;
-  margin-top: 12px; }
+  margin-top: 12px;
+  margin-left: 10px; }
 
 .navbar > .navbar-collapse > .collapse > a:hover {
   background-color: #5b366a;
@@ -28,18 +32,78 @@ header {
     margin-top: 200px;
     margin-bottom: 80px; }
 
+.btn-work {
+  font-size: 18px;
+  background-color: #eb7d4b;
+  border-bottom: 3px solid;
+  border-color: #c86a40;
+  color: white;
+  padding: 23px 45px; }
+  .btn-work:hover {
+    background-color: #c86a40;
+    color: white; }
+
 .jumbotron-custom2 {
   min-height: 750px;
   background-color: #17c2a4; }
 
+#lines {
+  display: block;
+  margin: 0 auto;
+  width: 85px;
+  height: 5px;
+  background-color: #c8d9e5; }
+
 .jumbotron-custom3 {
   min-height: 915px;
   background-color: #e7f1f8; }
-  .jumbotron-custom3 h1, .jumbotron-custom3 h4, .jumbotron-custom3 h6, .jumbotron-custom3 p {
+  .jumbotron-custom3 img {
+    margin-bottom: 40px; }
+  .jumbotron-custom3 h1, .jumbotron-custom3 h4, .jumbotron-custom3 p {
     color: #3c4761; }
+  .jumbotron-custom3 h5 {
+    color: #30bae7;
+    font-weight: bold; }
+  .jumbotron-custom3 h4, .jumbotron-custom3 h1 {
+    font-weight: bold; }
+
+.jumbotron-custom4 {
+  min-height: 700px;
+  background-color: white; }
+  .jumbotron-custom4 h1, .jumbotron-custom4 h4, .jumbotron-custom4 p {
+    color: #3c4761;
+    font-weight: bold; }
+  .jumbotron-custom4 p {
+    font-weight: normal; }
+
+.jumbotron-custom5 {
+  min-height: 1400px;
+  background-color: #ffdd99; }
+  .jumbotron-custom5 #lines {
+    background-color: #e5c37f; }
+  .jumbotron-custom5 h1, .jumbotron-custom5 h4, .jumbotron-custom5 p {
+    color: #3c4761;
+    font-weight: bold; }
+  .jumbotron-custom5 p {
+    font-weight: normal; }
+  .jumbotron-custom5 .btn-custom {
+    background-color: #ebc985;
+    color: #3c4761; }
+    .jumbotron-custom5 .btn-custom:hover, .jumbotron-custom5 .btn-custom:focus {
+      background-color: white; }
+  .jumbotron-custom5 .btn-custom2 {
+    font-size: 18px;
+    background-color: #17c2a4;
+    border-bottom: 3px solid;
+    border-color: #14a58c;
+    color: white;
+    padding: 23px 45px; }
+    .jumbotron-custom5 .btn-custom2:hover {
+      background-color: #14a58c; }
 
 body {
   margin: 0;
-  color: white; }
+  color: white;
+  font-family: "Titillium Web", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
