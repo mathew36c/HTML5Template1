@@ -1,30 +1,36 @@
-header {
+.navbar-default .container-fluid {
   background-color: #87509c; }
+  .navbar-default .container-fluid img {
+    height: 30px;
+    width: auto;
+    margin: 10px 0 10px 10px; }
 
-.navbar-fixed-top {
-  background-color: #87509c;
-  height: 56px; }
-
-ul.nav a {
+.navbar-default .navbar-nav > li > a {
   color: white;
   padding: 5px 15px;
   display: inline-block;
   margin-top: 10px; }
-  ul.nav a:hover, ul.nav a:focus {
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
     background-color: #643a79;
     border-radius: 5px; }
 
-.navbar-header img {
-  height: 30px;
-  width: auto;
-  margin-top: 12px;
-  margin-left: 10px; }
+.navbar-toggle {
+  background-color: white; }
 
-.navbar > .navbar-collapse > .collapse > a:hover {
-  background-color: #5b366a;
-  border-radius: 10px;
-  color: black; }
+@media screen and (max-width: 767px) {
+  .navbar-default .container-fluid {
+    background-color: white; }
+    .navbar-default .container-fluid img {
+      -webkit-filter: grayscale(100%) brightness(10%) contrast(100%);
+      -ms-filter: grayscale(100%) brightness(10%) contrast(100%); }
 
+  .navbar-default .navbar-nav > li > a {
+    color: #3c4761; }
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+      background-color: #ccc;
+      border-radius: 0;
+      color: #3c4761; } }
 .jumbotron-custom1 {
   height: 600px;
   background-color: #87509c; }
@@ -46,6 +52,8 @@ ul.nav a {
 .jumbotron-custom2 {
   min-height: 750px;
   background-color: #17c2a4; }
+  .jumbotron-custom2 h3, .jumbotron-custom2 h4 {
+    font-weight: bold; }
 
 #lines {
   display: block;

@@ -1,30 +1,45 @@
 @import "./vars.sass"
 
-header
-  background:
-    color: #87509c
+.navbar-default .container-fluid
+  background-color: $purple
 
-.navbar-fixed-top
-  background-color: #87509c
-  height: 56px
-
-ul.nav a
-  color: white
-  padding: 5px 15px
-  display: inline-block
-  margin-top: 10px
-  &:hover, &:focus
-    background-color: #643a79
-    border-radius: 5px
-
-.navbar-header
   img
     height: 30px
     width: auto
-    margin:
-      top: 12px
-      left: 10px
-.navbar > .navbar-collapse > .collapse > a:hover
-  background-color: #5b366a
-  border-radius: 10px
-  color: black
+    margin: 10px 0 10px 10px
+
+.navbar-default .navbar-nav > li > a
+  color: white
+  padding: 5px 15px
+  display: inline-block   
+  margin-top: 10px
+
+  &:hover, &:focus
+    color: white
+    background-color: #643a79
+    border-radius: 5px
+
+.navbar-toggle
+  background-color: white
+
+@media screen and (max-width: 767px)
+  .navbar-default .container-fluid
+    background-color: white
+
+    img
+      -webkit-filter: grayscale(100%) brightness(10%) contrast(100%)  
+      -ms-filter: grayscale(100%) brightness(10%) contrast(100%)  
+
+  .navbar-default .navbar-nav > li > a
+    color: $black
+
+    &:hover, &:focus
+      background-color: #ccc
+      border-radius: 0
+      color: $black
+
+  
+
+
+
+

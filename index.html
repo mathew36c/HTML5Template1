@@ -10,25 +10,32 @@
     <link rel="stylesheet" type="text/css" href="./css/main.css">
   </head>
   <body>
-    <header>
-        <nav class="navbar navbar-custom navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-                <img src="./img/logo.png" alt="logo" />
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#work">WORK</a></li>
-                <li><a href="#blog">BLOG</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <img src="./img/logo.png" alt="logo" title="Welcome to Cuda" />
           </div>
-        </nav>
-  </header>
-    <div class="jumbotron-custom1">
+
+          <div id="navbar" class="navbar-collapse collapse navbar-right">
+            <ul class="nav navbar-nav">
+              <li><a id="links" href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">WORK</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+    <div id="waypoint" class="jumbotron-custom1">
       <div class="row">
         <div class="col-md-12">
           <h3 class="text-center">Hi there! We are the new kids on the block
@@ -174,7 +181,7 @@
       </div>
     </div>
 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
   </body>
 </html>
