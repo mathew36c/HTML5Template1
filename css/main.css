@@ -1,42 +1,45 @@
-/* line 3, ../sass/_header.sass */
 header {
-  background-color: #87509c;
-}
+  background-color: #87509c; }
 
-/* line 7, ../sass/_header.sass */
 .navbar-fixed-top {
   background-color: #87509c;
-}
-/* line 10, ../sass/_header.sass */
-.navbar-fixed-top a {
-  color: white;
-}
+  height: 56px; }
 
-/* line 14, ../sass/_header.sass */
+#link {
+  color: white; }
+  #link:hover {
+    background-color: #643a79;
+    border-radius: 7px; }
+
 .navbar-header img {
   height: 30px;
   width: auto;
-}
+  margin-top: 12px; }
 
-/* line 18, ../sass/_header.sass */
 .navbar > .navbar-collapse > .collapse > a:hover {
   background-color: #5b366a;
   border-radius: 10px;
-  color: black;
-}
+  color: black; }
 
-/* line 23, ../sass/_header.sass */
-.jumbotron {
+.jumbotron-custom1 {
   height: 600px;
-  background-color: #87509c;
-}
-/* line 28, ../sass/_header.sass */
-.jumbotron h3 {
-  color: white;
-  margin-top: 145px;
-}
+  background-color: #87509c; }
+  .jumbotron-custom1 h3 {
+    margin-top: 200px;
+    margin-bottom: 80px; }
 
-/* line 4, ../sass/main.sass */
+.jumbotron-custom2 {
+  min-height: 750px;
+  background-color: #17c2a4; }
+
+.jumbotron-custom3 {
+  min-height: 915px;
+  background-color: #e7f1f8; }
+  .jumbotron-custom3 h1, .jumbotron-custom3 h4, .jumbotron-custom3 h6, .jumbotron-custom3 p {
+    color: #3c4761; }
+
 body {
   margin: 0;
-}
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */
