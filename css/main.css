@@ -7,13 +7,17 @@
 
 .navbar-default .navbar-nav > li > a {
   color: white;
-  padding: 5px 15px;
+  padding: 7px 20px;
   display: inline-block;
-  margin-top: 10px; }
+  margin-top: 10px;
+  border-radius: 4px;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s; }
   .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: white;
     background-color: #643a79;
-    border-radius: 5px; }
+    -webkit-transition: background-color 0.8s;
+    transition: background-color 0.5s; }
 
 .navbar-toggle {
   background-color: white; }
@@ -47,10 +51,14 @@
   border-bottom: 3px solid;
   border-color: #c86a40;
   color: white;
-  padding: 23px 45px; }
+  padding: 23px 45px;
+  -webkit-transition: background-color 0.8s;
+  transition: background-color 0.8s; }
   .btn-work:hover {
     background-color: #c86a40;
-    color: white; }
+    color: white;
+    -webkit-transition: background-color 0.8s;
+    transition: background-color 0.8s; }
 
 .jumbotron-custom2 {
   min-height: 750px;
@@ -93,68 +101,103 @@
   .jumbotron-custom5 #lines {
     background-color: #e5c37f; }
   .jumbotron-custom5 h1, .jumbotron-custom5 h4, .jumbotron-custom5 p {
-    color: #3c4761;
+    color: black;
     font-weight: bold; }
   .jumbotron-custom5 p {
     font-weight: normal; }
   .jumbotron-custom5 .btn-custom {
     background-color: #ebc985;
-    color: #3c4761; }
+    color: black;
+    margin-right: 10px;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-weight: bold; }
     .jumbotron-custom5 .btn-custom:hover, .jumbotron-custom5 .btn-custom:focus {
-      background-color: white; }
+      background-color: white;
+      -webkit-transition: background-color 0.8s;
+      transition: background-color 0.8s; }
   .jumbotron-custom5 .btn-custom2 {
     font-size: 18px;
     background-color: #17c2a4;
     border-bottom: 3px solid;
     border-color: #14a58c;
     color: white;
-    padding: 23px 45px; }
+    padding: 23px 45px;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s; }
     .jumbotron-custom5 .btn-custom2:hover {
-      background-color: #14a58c; }
+      background-color: #14a58c;
+      -webkit-transition: background-color 0.8s;
+      transition: background-color 0.8s; }
 
 .jumbotron-custom6 {
   min-height: 895px;
   background-color: #d74680; }
+  .jumbotron-custom6 h1 {
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 80px;
+    margin-bottom: 20px; }
+  .jumbotron-custom6 h3 {
+    font-weight: bold;
+    letter-spacing: 2px; }
+  .jumbotron-custom6 p {
+    font-size: 18px; }
   .jumbotron-custom6 img {
     height: 100px;
     width: auto; }
   .jumbotron-custom6 #lines {
-    background-color: #b73c6d; }
+    background-color: #b73c6d;
+    margin-bottom: 30px; }
   .jumbotron-custom6 #em-align {
     font-style: italic; }
-  .jumbotron-custom6 h5 {
+  .jumbotron-custom6 h4 {
     color: #efa18f; }
 
 .jumbotron-custom7 {
   min-height: 930px;
   background-color: #3c5499; }
+  .jumbotron-custom7 h1 {
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 80px;
+    margin-bottom: 20px; }
+  .jumbotron-custom7 p {
+    font-size: 18px;
+    margin-bottom: 50px; }
   .jumbotron-custom7 #lines {
-    background-color: #273a71; }
+    background-color: #273a71;
+    margin-bottom: 30px; }
   .jumbotron-custom7 input[type="text"] {
     background-color: #273a71;
+    border: none;
     color: white;
-    margin-top: 20px; }
+    margin-top: 20px;
+    font-size: 18px;
+    height: 60px; }
   .jumbotron-custom7 #comment {
+    margin-top: 30px;
+    margin-bottom: 40px;
     color: white;
-    display: block;
-    margin: 20px auto;
-    max-width: 750px;
-    background-color: #273a71; }
+    background-color: #273a71;
+    border: none;
+    font-size: 18px; }
   .jumbotron-custom7 .btn-custom3 {
     font-size: 18px;
     background-color: #30bae7;
     border-bottom: 3px solid;
     border-color: #299ec5;
     color: white;
-    padding: 23px 55px; }
+    padding: 23px 55px;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s; }
     .jumbotron-custom7 .btn-custom3:hover {
-      background-color: #299ec5; }
-
-.form-control input:after {
-  content: "*"; }
+      background-color: #299ec5;
+      -webkit-transition: background-color 0.8s;
+      transition: background-color 0.8s; }
 
 @media screen and (max-width: 991px) {
-  .jumbotron-custom6 > p, h5, h4 {
+  .jumbotron-custom6 > p, h3, h4 {
     text-align: center; }
 
   #em-align {
