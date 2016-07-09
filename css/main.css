@@ -22,11 +22,14 @@
   .navbar-default .container-fluid {
     background-color: white; }
     .navbar-default .container-fluid img {
-      -webkit-filter: grayscale(100%) brightness(10%) contrast(100%);
-      -ms-filter: grayscale(100%) brightness(10%) contrast(100%); }
+      filter: invert(100%);
+      -webkit-filter: invert(100%); }
 
   .navbar-default .navbar-nav > li > a {
-    color: #3c4761; }
+    display: block;
+    margin: 0 auto;
+    color: #3c4761;
+    padding: 15px 15px; }
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
       background-color: #ccc;
       border-radius: 0;
@@ -109,9 +112,71 @@
     .jumbotron-custom5 .btn-custom2:hover {
       background-color: #14a58c; }
 
+.jumbotron-custom6 {
+  min-height: 895px;
+  background-color: #d74680; }
+  .jumbotron-custom6 img {
+    height: 100px;
+    width: auto; }
+  .jumbotron-custom6 #lines {
+    background-color: #b73c6d; }
+  .jumbotron-custom6 #em-align {
+    font-style: italic; }
+  .jumbotron-custom6 h5 {
+    color: #efa18f; }
+
+.jumbotron-custom7 {
+  min-height: 930px;
+  background-color: #3c5499; }
+  .jumbotron-custom7 #lines {
+    background-color: #273a71; }
+  .jumbotron-custom7 input[type="text"] {
+    background-color: #273a71;
+    color: white;
+    margin-top: 20px; }
+  .jumbotron-custom7 #comment {
+    color: white;
+    display: block;
+    margin: 20px auto;
+    max-width: 750px;
+    background-color: #273a71; }
+  .jumbotron-custom7 .btn-custom3 {
+    font-size: 18px;
+    background-color: #30bae7;
+    border-bottom: 3px solid;
+    border-color: #299ec5;
+    color: white;
+    padding: 23px 55px; }
+    .jumbotron-custom7 .btn-custom3:hover {
+      background-color: #299ec5; }
+
+.form-control input:after {
+  content: "*"; }
+
+@media screen and (max-width: 991px) {
+  .jumbotron-custom6 > p, h5, h4 {
+    text-align: center; }
+
+  #em-align {
+    font-style: italic;
+    text-align: center; } }
 body {
   margin: 0;
   color: white;
   font-family: "Titillium Web", sans-serif; }
+
+footer {
+  min-height: 115px;
+  background-color: #344b8e; }
+  footer div li {
+    margin-top: 30px; }
+    footer div li a {
+      color: white;
+      font-size: 20px;
+      margin-right: 15px;
+      text-decoration: none; }
+      footer div li a:hover, footer div li a:focus {
+        text-decoration: none;
+        color: #469dde; }
 
 /*# sourceMappingURL=main.css.map */

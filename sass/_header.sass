@@ -11,7 +11,7 @@
 .navbar-default .navbar-nav > li > a
   color: white
   padding: 5px 15px
-  display: inline-block   
+  display: inline-block
   margin-top: 10px
 
   &:hover, &:focus
@@ -27,19 +27,16 @@
     background-color: white
 
     img
-      -webkit-filter: grayscale(100%) brightness(10%) contrast(100%)  
-      -ms-filter: grayscale(100%) brightness(10%) contrast(100%)  
+      filter: invert(100%)
+      -webkit-filter: invert(100%)
 
   .navbar-default .navbar-nav > li > a
+    display: block
+    margin: 0 auto
     color: $black
+    padding: 15px 15px
 
     &:hover, &:focus
       background-color: #ccc
       border-radius: 0
       color: $black
-
-  
-
-
-
-
