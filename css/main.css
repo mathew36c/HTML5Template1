@@ -31,7 +31,7 @@
 
 .navbar-default .navbar-toggle {
   background-color: #643a79;
-  margin-right: 25px;
+  margin-right: 15px;
   border: none;
   border-radius: 70%;
   color: white;
@@ -60,7 +60,7 @@
   .jumbotron-custom1 h1 {
     font-family: "Titillium Web", sans-serif;
     font-size: 42px;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 200px;
     margin-bottom: 80px;
     line-height: 60px; }
@@ -108,9 +108,7 @@
     font-weight: 700;
     margin-top: 75px;
     margin-bottom: 15px;
-    letter-spacing: 3px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white; }
+    letter-spacing: 3px; }
   .jumbotron-custom2 p {
     font-size: 18px;
     margin-bottom: 100px;
@@ -132,20 +130,27 @@
     letter-spacing: 5px;
     font-weight: bold;
     margin-top: 75px;
-    margin-bottom: 15px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #3c4761; }
+    margin-bottom: 15px; }
   .jumbotron-custom3 h3 {
     color: #3c4761;
-    font-weight: bold;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #3c4761; }
+    font-weight: 700;
+    letter-spacing: 2px; }
   .jumbotron-custom3 h4 {
     color: #30bae7; }
   .jumbotron-custom3 p {
     font-size: 18px;
     color: #3c4761; }
+  .jumbotron-custom3 #lines {
+    margin-top: 20px;
+    margin-bottom: 30px; }
 
+#sec-3-p1 {
+  margin-bottom: 100px;
+  font-weight: 600; }
+
+@media screen and (max-width: 991px) {
+  #sec-3-p1 {
+    margin-bottom: 35px; } }
 .jumbotron-custom4 {
   min-height: 700px;
   background-color: white; }
@@ -263,8 +268,64 @@
   #em-align {
     font-style: italic;
     text-align: center; } }
-body {
+.fb {
+  display: inline-block;
+  background: url("../img/fb.png") center center;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  height: 32px;
+  width: 32px;
+  -webkit-transition: background 0.3s; }
+  .fb:hover {
+    background: url("../img/fbhover.png") center center;
+    -webkit-transition: background 0.3s; }
+
+.twitter {
+  display: inline-block;
+  background: url("../img/twitter.png") center center;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  height: 32px;
+  width: 32px;
+  -webkit-transition: background 0.3s; }
+  .twitter:hover {
+    background: url("../img/twitterhover.png") center center;
+    -webkit-transition: background 0.3s; }
+
+.linkedin {
+  display: inline-block;
+  background: url("../img/linkedin.png") center center;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  height: 32px;
+  width: 32px;
+  -webkit-transition: background 0.3s; }
+  .linkedin:hover {
+    background: url("../img/linkedinhover.png") center center;
+    -webkit-transition: background 0.3s; }
+
+.mail {
+  display: inline-block;
+  background: url("../img/mail.png") center center;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  height: 32px;
+  width: 32px;
+  -webkit-transition: background 0.3s; }
+  .mail:hover {
+    background: url("../img/mailhover.png") center center;
+    -webkit-transition: background 0.3s; }
+
+html, body {
+  width: 100%;
+  height: 100%;
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   color: white;
   font-family: "Titillium Web", sans-serif; }
 
