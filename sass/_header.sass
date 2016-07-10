@@ -1,18 +1,30 @@
 @import "./vars.sass"
 
+
+.navbar.navbar-default
+  border: none
+  box-shadow: none
+
+  .navbar-collapse
+    border: none
+    box-shadow: none
+
 .navbar-default .container-fluid
   background-color: $purple
 
   img
-    height: 30px
+    height: 35px
     width: auto
     margin: 10px 0 10px 10px
 
 .navbar-default .navbar-nav > li > a
+  font-family: $font-stack
   color: white
-  padding: 7px 20px
+  font-size: 16px
+  padding: 7px 10px
   display: inline-block
   margin-top: 10px
+  margin-right: 5px
   border-radius: 4px
   -webkit-transition: background-color 0.5s
   transition: background-color 0.5s
@@ -23,24 +35,31 @@
     -webkit-transition: background-color 0.8s
     transition: background-color 0.5s
 
-.navbar-toggle
-  background-color: white
+.navbar-default .navbar-toggle
+  background-color: #643a79
+  margin-right: 25px
+  border: none
+  border-radius: 70%
+  color: white
+  height: 44px
+  width: 42px
 
-@media screen and (max-width: 767px)
-  .navbar-default .container-fluid
+  &:hover, &:focus
+    background-color: #5a336e
+
+  .icon-bar
     background-color: white
 
-    img
-      filter: invert(100%)
-      -webkit-filter: invert(100%)
-
+@media screen and (max-width: 767px)
   .navbar-default .navbar-nav > li > a
+    background-color: #292F46
+    border-top: 0.001em solid #331f3d
+    border-radius: 0
     display: block
     margin: 0 auto
-    color: $black
-    padding: 15px 15px
+    padding: 7px 30px
 
     &:hover, &:focus
-      background-color: #ccc
+      background-color: $purple
       border-radius: 0
-      color: $black
+      color: white

@@ -1,15 +1,25 @@
+.navbar.navbar-default {
+  border: none;
+  box-shadow: none; }
+  .navbar.navbar-default .navbar-collapse {
+    border: none;
+    box-shadow: none; }
+
 .navbar-default .container-fluid {
   background-color: #87509c; }
   .navbar-default .container-fluid img {
-    height: 30px;
+    height: 35px;
     width: auto;
     margin: 10px 0 10px 10px; }
 
 .navbar-default .navbar-nav > li > a {
+  font-family: "Titillium Web", sans-serif;
   color: white;
-  padding: 7px 20px;
+  font-size: 16px;
+  padding: 7px 10px;
   display: inline-block;
   margin-top: 10px;
+  margin-right: 5px;
   border-radius: 4px;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s; }
@@ -19,38 +29,50 @@
     -webkit-transition: background-color 0.8s;
     transition: background-color 0.5s; }
 
-.navbar-toggle {
-  background-color: white; }
+.navbar-default .navbar-toggle {
+  background-color: #643a79;
+  margin-right: 25px;
+  border: none;
+  border-radius: 70%;
+  color: white;
+  height: 44px;
+  width: 42px; }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #5a336e; }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: white; }
 
 @media screen and (max-width: 767px) {
-  .navbar-default .container-fluid {
-    background-color: white; }
-    .navbar-default .container-fluid img {
-      filter: invert(100%);
-      -webkit-filter: invert(100%); }
-
   .navbar-default .navbar-nav > li > a {
+    background-color: #292F46;
+    border-top: 0.001em solid #331f3d;
+    border-radius: 0;
     display: block;
     margin: 0 auto;
-    color: #3c4761;
-    padding: 15px 15px; }
+    padding: 7px 30px; }
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-      background-color: #ccc;
+      background-color: #87509c;
       border-radius: 0;
-      color: #3c4761; } }
+      color: white; } }
 .jumbotron-custom1 {
   height: 600px;
   background-color: #87509c; }
-  .jumbotron-custom1 h3 {
+  .jumbotron-custom1 h1 {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 42px;
+    font-weight: 900;
     margin-top: 200px;
-    margin-bottom: 80px; }
+    margin-bottom: 80px;
+    line-height: 60px; }
 
 .btn-work {
   font-size: 18px;
   background-color: #eb7d4b;
   border-bottom: 3px solid;
+  border-radius: 8px;
   border-color: #c86a40;
   color: white;
+  width: 280px;
   padding: 23px 45px;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s; }
@@ -59,12 +81,10 @@
     color: white;
     -webkit-transition: background-color 0.8s;
     transition: background-color 0.8s; }
-
-.jumbotron-custom2 {
-  min-height: 750px;
-  background-color: #17c2a4; }
-  .jumbotron-custom2 h3, .jumbotron-custom2 h4 {
-    font-weight: bold; }
+  .btn-work:active {
+    transform: translateY(4px); }
+  .btn-work:focus {
+    color: white; }
 
 #lines {
   display: block;
@@ -73,18 +93,58 @@
   height: 5px;
   background-color: #c8d9e5; }
 
+@media screen and (max-width: 756px) {
+  .jumbotron-custom1 h1 {
+    font-size: 32px; } }
+@media screen and (max-width: 579px) {
+  .jumbotron-custom1 h1 {
+    font-size: 28;
+    margin-bottom: 30px;
+    margin-top: 120px; } }
+.jumbotron-custom2 {
+  min-height: 700px;
+  background-color: #17c2a4; }
+  .jumbotron-custom2 h1 {
+    font-weight: 700;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white; }
+  .jumbotron-custom2 p {
+    font-size: 18px;
+    margin-bottom: 100px;
+    margin-top: 20px; }
+  .jumbotron-custom2 h3 {
+    font-weight: bold;
+    margin-top: 50px; }
+  .jumbotron-custom2 #lines {
+    background-color: #14A58C;
+    margin-bottom: 30px; }
+
 .jumbotron-custom3 {
   min-height: 915px;
   background-color: #e7f1f8; }
   .jumbotron-custom3 img {
     margin-bottom: 40px; }
-  .jumbotron-custom3 h1, .jumbotron-custom3 h4, .jumbotron-custom3 p {
+  .jumbotron-custom3 h1 {
+    color: #3c4761;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3c4761; }
+  .jumbotron-custom3 h3 {
+    color: #3c4761;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3c4761; }
+  .jumbotron-custom3 h4 {
+    color: #30bae7; }
+  .jumbotron-custom3 p {
+    font-size: 18px;
     color: #3c4761; }
-  .jumbotron-custom3 h5 {
-    color: #30bae7;
-    font-weight: bold; }
-  .jumbotron-custom3 h4, .jumbotron-custom3 h1 {
-    font-weight: bold; }
 
 .jumbotron-custom4 {
   min-height: 700px;
@@ -152,10 +212,10 @@
   .jumbotron-custom6 #em-align {
     font-style: italic; }
   .jumbotron-custom6 h4 {
-    color: #efa18f; }
+    color: #ffd28f; }
 
 .jumbotron-custom7 {
-  min-height: 930px;
+  min-height: 850px;
   background-color: #3c5499; }
   .jumbotron-custom7 h1 {
     font-weight: bold;
