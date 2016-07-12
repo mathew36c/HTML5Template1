@@ -225,7 +225,7 @@
 }
 
 .jumbotron-custom5 {
-  min-height: 1400px;
+  min-height: 1200px;
   background-color: #ffdd99;
 }
 .jumbotron-custom5 #lines {
@@ -269,7 +269,8 @@
 .jumbotron-custom5 .btn-custom2 {
   font-size: 18px;
   background-color: #17c2a4;
-  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-top: 60px;
   border-bottom: 3px solid;
   border-color: #14a58c;
   color: white;
@@ -284,7 +285,7 @@
 }
 
 .jumbotron-custom6 {
-  min-height: 895px;
+  min-height: 700px;
   background-color: #d74680;
 }
 .jumbotron-custom6 h1 {
@@ -306,13 +307,18 @@
 }
 .jumbotron-custom6 #lines {
   background-color: #b73c6d;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
-.jumbotron-custom6 #em-align {
+.jumbotron-custom6 #sec6-p {
+  margin-bottom: 60px;
+  font-weight: 600;
+}
+.jumbotron-custom6 .em-align {
   font-style: italic;
 }
 .jumbotron-custom6 h4 {
   color: #ffd28f;
+  margin-bottom: 50px;
 }
 
 .jumbotron-custom7 {
