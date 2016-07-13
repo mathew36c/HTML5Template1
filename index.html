@@ -1,14 +1,17 @@
+<!--A Design by Mathew Oscar Garalde
+Email: mathewgaralde@gmail.com
+Github: https://github.com/mathew36c/html5-responsive
+-->
 <!DOCTYPE html>
-<html>
-  <head lang="en">
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome to Cuda | HTML5 Responsive Web Design</title>
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
       <!-- Static navbar -->
@@ -25,20 +28,21 @@
           </div>
 
           <div id="navbar" class="navbar-collapse collapse navbar-right">
-            <ul class="nav navbar-nav">
-              <li><a href="index.html#pageTop">HOME</a></li>
-              <li><a href="index.html#about">SERVICES</a></li>
-              <li><a href="index.html#work">OUR TEAM</a></li>
-              <li><a href="index.html#blog">SKILLS</a></li>
-              <li><a href="index.html#pageButtom">WORKS</a></li>
-              <li><a href="index.html#pageButtom">ABOUT</a></li>
-              <li><a href="index.html#pageButtom">CONTACT</a></li>
+            <ul id="nav" class="nav navbar-nav">
+              <li><a href="#1">HOME</a></li>
+              <li><a href="#2">SERVICES</a></li>
+              <li><a href="#3">OUR TEAM</a></li>
+              <li><a href="#4">SKILLS</a></li>
+              <li><a href="#5">WORKS</a></li>
+              <li><a href="#6">CLIENTS</a></li>
+              <li><a href="#7">CONTACT</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>
 
-    <div id="pageTop" class="jumbotron-custom1">
+    <!-- SECTION 1 -->
+    <div id="1" class="section1">
       <div class="row">
         <div class="col-md-12">
           <h1 class="text-center">Hi there! We are the new kids on the block<br>
@@ -50,20 +54,16 @@
       </div>
     </div>
 
-
-    <div id="about" class="jumbotron-custom2">
+    <!-- SECTION 2 -->
+    <div id="2" class="section2">
       <div class="row">
         <div class="col-md-12">
           <h1 class="text-center">SERVICES WE PROVIDE</h1>
-          <div id="lines"></div>
+          <div class="lines"></div>
           <p class="text-center">We are working with both individuals and businesses from all over the<br>globe to create awesome websites and applications.</p>
         </div>
         <div class="container">
-          <div class="col-md-3">
-            <img src="./img/flag.png" class="img-responsive center-block" alt="flag">
-            <h3 class="text-center">BRANDING</h3>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-          </div>
+          <div class="col-md-3"><img src="./img/flag.png" class="img-responsive center-block" alt="flag"><h3 class="text-center">BRANDING</h3><p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p></div>
           <div class="col-md-3">
             <img src="./img/crayon.png" class="img-responsive center-block" alt="crayon">
             <h3 class="text-center">DESIGN</h3>
@@ -83,12 +83,13 @@
       </div>
     </div>
 
-    <div id="work" class="jumbotron-custom3">
+    <!-- SECTION 3 -->
+    <div id="3" class="section3">
       <div class="container">
         <div class="row">
         <div class="col-md-12">
           <h1 class="text-center">MEET OUR BEAUTIFUL TEAM</h1>
-          <div id="lines"></div>
+          <div class="lines"></div>
           <p id="sec-3-p1" class="text-center">We are a small team of designers and developers, who help brands with big ideas.</p>
         </div>
         <div class="col-md-3">
@@ -141,12 +142,13 @@
       </div>
     </div>
 
-    <div class="jumbotron-custom4">
+    <!-- SECTION 4 -->
+    <div id="4" class="section4">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h1 class="text-center">WE GOT THE SKILLS!</h1>
-            <div id="lines"></div>
+            <div class="lines"></div>
             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <div class="col-md-3 col-sm-6">
@@ -169,12 +171,13 @@
       </div>
     </div>
 
-    <div id="blog" class="jumbotron-custom5">
+    <!-- SECTION 5 -->
+    <div id="5" class="section5">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h1 class="text-center">OUR PORTFOLIO</h1>
-            <div id="lines"></div>
+            <div class="lines"></div>
             <p class="text-center">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
           <!--
             <div class="col-md-12 text-center">
@@ -209,12 +212,13 @@
       </div>
     </div>
 
-    <div class="jumbotron-custom6">
+    <!-- SECTION 6 -->
+    <div id="6" class="section6">
       <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h1 class="text-center">WHAT PEOPLE SAY ABOUT US</h1>
-          <div id="lines"></div>
+          <div class="lines"></div>
           <p id="sec6-p" class="text-center">Our clients love us!</p>
         </div>
 
@@ -263,12 +267,13 @@
       </div>
     </div>
 
-    <div id="pageButtom" class="jumbotron-custom7">
+    <!-- SECTION 7 -->
+    <div id="7" class="section7">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h1 class="text-center">GET IN TOUCH</h1>
-            <div id="lines"></div>
+            <div class="lines"></div>
             <p class="text-center">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
           </div>
           <div class="col-md-6">
@@ -303,10 +308,26 @@
         <li><a href="https://dribbble.com">Dribble</a></li>
         <li><a href="https://github.com">GitHub</a></li>
       </ul>
+    <p class="text-center">© 2016. All rights reserved | Template by <a href="https://github.com/mathew36c/html5-responsive">Mathew Oscar Garalde</a></p>
     </div>
   </footer>
 
-  <script src="./js/jquery.min.js"></script>
-  <script src="./js/bootstrap.min.js" ></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+  <script type="text/javascript" src="js/jquery.nav.js"></script>
+
+    <script>
+      $(document).ready(function() {
+       $('#nav').onePageNav({
+         begin: function() {
+         },
+         end: function() {
+         }
+       });
+      });
+    </script>
+
   </body>
 </html>

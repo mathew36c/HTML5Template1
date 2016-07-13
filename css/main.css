@@ -66,11 +66,11 @@
     color: white;
   }
 }
-.jumbotron-custom1 {
+.section1 {
   height: 600px;
   background-color: #87509c;
 }
-.jumbotron-custom1 h1 {
+.section1 h1 {
   font-family: "Titillium Web", sans-serif;
   font-size: 42px;
   font-weight: 700;
@@ -104,7 +104,7 @@
   color: white;
 }
 
-#lines {
+.lines {
   display: block;
   margin: 0 auto;
   width: 85px;
@@ -113,68 +113,68 @@
 }
 
 @media screen and (max-width: 756px) {
-  .jumbotron-custom1 h1 {
+  .section1 h1 {
     font-size: 32px;
   }
 }
 @media screen and (max-width: 579px) {
-  .jumbotron-custom1 h1 {
+  .section1 h1 {
     font-size: 28;
     margin-bottom: 30px;
     margin-top: 120px;
   }
 }
-.jumbotron-custom2 {
+.section2 {
   min-height: 700px;
   background-color: #17c2a4;
 }
-.jumbotron-custom2 h1 {
+.section2 h1 {
   font-weight: 700;
   margin-top: 75px;
   margin-bottom: 15px;
   letter-spacing: 3px;
 }
-.jumbotron-custom2 p {
+.section2 p {
   font-size: 18px;
   margin-bottom: 65px;
   margin-top: 20px;
 }
-.jumbotron-custom2 h3 {
+.section2 h3 {
   font-weight: bold;
   margin-top: 50px;
 }
-.jumbotron-custom2 #lines {
+.section2 .lines {
   background-color: #14A58C;
   margin-bottom: 30px;
 }
 
-.jumbotron-custom3 {
+.section3 {
   min-height: 915px;
   background-color: #e7f1f8;
 }
-.jumbotron-custom3 img {
+.section3 img {
   margin-bottom: 40px;
 }
-.jumbotron-custom3 h1 {
+.section3 h1 {
   color: #3c4761;
   letter-spacing: 5px;
   font-weight: bold;
   margin-top: 75px;
   margin-bottom: 15px;
 }
-.jumbotron-custom3 h3 {
+.section3 h3 {
   color: #3c4761;
   font-weight: 700;
   letter-spacing: 2px;
 }
-.jumbotron-custom3 h4 {
+.section3 h4 {
   color: #30bae7;
 }
-.jumbotron-custom3 p {
+.section3 p {
   font-size: 18px;
   color: #3c4761;
 }
-.jumbotron-custom3 #lines {
+.section3 .lines {
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -189,34 +189,34 @@
     margin-bottom: 35px;
   }
 
-  .jumbotron-custom3 {
+  .section3 {
     min-height: 2100px;
   }
-  .jumbotron-custom3 h1 {
+  .section3 h1 {
     margin-top: 55px;
   }
 }
-.jumbotron-custom4 {
+.section4 {
   min-height: 650px;
   background-color: white;
 }
-.jumbotron-custom4 #lines {
+.section4 .lines {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.jumbotron-custom4 h1 {
+.section4 h1 {
   color: #3c4761;
   font-weight: bold;
   letter-spacing: 5px;
   margin-top: 75px;
   margin-bottom: 35px;
 }
-.jumbotron-custom4 h3 {
+.section4 h3 {
   color: #3c4761;
   font-weight: bold;
   margin-bottom: 80px;
 }
-.jumbotron-custom4 p {
+.section4 p {
   color: #3c4761;
   font-weight: 600;
   font-size: 18px;
@@ -224,36 +224,36 @@
   margin-bottom: 80px;
 }
 
-.jumbotron-custom5 {
+.section5 {
   min-height: 1200px;
   background-color: #ffdd99;
 }
-.jumbotron-custom5 #lines {
+.section5 .lines {
   background-color: #e5c37f;
   margin-bottom: 30px;
 }
-.jumbotron-custom5 img {
+.section5 img {
   margin-top: 30px;
 }
-.jumbotron-custom5 h1 {
+.section5 h1 {
   color: #1c1c1c;
   font-weight: bold;
   margin-top: 75px;
   margin-bottom: 15px;
   letter-spacing: 5px;
 }
-.jumbotron-custom5 h3 {
+.section5 h3 {
   color: #1c1c1c;
   font-weight: bold;
 }
-.jumbotron-custom5 p {
+.section5 p {
   color: #1c1c1c;
   font-size: 18px;
   font-weight: normal;
   font-weight: bold;
   margin-bottom: 30px;
 }
-.jumbotron-custom5 .btn-custom {
+.section5 .btn-custom {
   background-color: #ebc985;
   color: black;
   margin-right: 10px;
@@ -261,12 +261,12 @@
   transition: background-color 0.5s;
   font-weight: bold;
 }
-.jumbotron-custom5 .btn-custom:hover, .jumbotron-custom5 .btn-custom:focus {
+.section5 .btn-custom:hover, .section5 .btn-custom:focus {
   background-color: white;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
-.jumbotron-custom5 .btn-custom2 {
+.section5 .btn-custom2 {
   font-size: 18px;
   background-color: #17c2a4;
   margin-bottom: 50px;
@@ -278,68 +278,78 @@
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
-.jumbotron-custom5 .btn-custom2:hover {
+.section5 .btn-custom2:hover {
   background-color: #14a58c;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-.jumbotron-custom6 {
+.section6 {
   min-height: 700px;
   background-color: #d74680;
 }
-.jumbotron-custom6 h1 {
+.section6 h1 {
   font-weight: bold;
   letter-spacing: 3px;
   margin-top: 80px;
   margin-bottom: 20px;
 }
-.jumbotron-custom6 h3 {
+.section6 h3 {
   font-weight: bold;
   letter-spacing: 2px;
 }
-.jumbotron-custom6 p {
+.section6 p {
   font-size: 18px;
 }
-.jumbotron-custom6 img {
+.section6 img {
   height: 100px;
   width: auto;
 }
-.jumbotron-custom6 #lines {
+.section6 .lines {
   background-color: #b73c6d;
   margin-bottom: 35px;
 }
-.jumbotron-custom6 #sec6-p {
+.section6 #sec6-p {
   margin-bottom: 60px;
   font-weight: 600;
 }
-.jumbotron-custom6 .em-align {
+.section6 .em-align {
   font-style: italic;
 }
-.jumbotron-custom6 h4 {
+.section6 h4 {
   color: #ffd28f;
   margin-bottom: 50px;
 }
 
-.jumbotron-custom7 {
+@media screen and (max-width: 991px) {
+  .section6 > p, h3, h4 {
+    text-align: center;
+  }
+
+  #em-align {
+    font-style: italic;
+    text-align: center;
+  }
+}
+.section7 {
   min-height: 850px;
   background-color: #3c5499;
 }
-.jumbotron-custom7 h1 {
+.section7 h1 {
   font-weight: bold;
   letter-spacing: 3px;
   margin-top: 80px;
   margin-bottom: 20px;
 }
-.jumbotron-custom7 p {
+.section7 p {
   font-size: 18px;
   margin-bottom: 50px;
 }
-.jumbotron-custom7 #lines {
+.section7 .lines {
   background-color: #273a71;
   margin-bottom: 30px;
 }
-.jumbotron-custom7 input[type="text"] {
+.section7 input[type="text"] {
   background-color: #273a71;
   border: none;
   color: white;
@@ -347,7 +357,7 @@
   font-size: 18px;
   height: 60px;
 }
-.jumbotron-custom7 #comment {
+.section7 #comment {
   margin-top: 30px;
   margin-bottom: 40px;
   color: white;
@@ -355,7 +365,7 @@
   border: none;
   font-size: 18px;
 }
-.jumbotron-custom7 .btn-custom3 {
+.section7 .btn-custom3 {
   font-size: 18px;
   background-color: #30bae7;
   border-bottom: 3px solid;
@@ -365,22 +375,12 @@
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
-.jumbotron-custom7 .btn-custom3:hover {
+.section7 .btn-custom3:hover {
   background-color: #299ec5;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-@media screen and (max-width: 991px) {
-  .jumbotron-custom6 > p, h3, h4 {
-    text-align: center;
-  }
-
-  #em-align {
-    font-style: italic;
-    text-align: center;
-  }
-}
 .fb {
   display: inline-block;
   background-image: url("../img/fb.png");
@@ -461,8 +461,6 @@
 }
 
 html, body {
-  width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -471,8 +469,8 @@ html, body {
 }
 
 footer {
-  min-height: 115px;
-  background-color: #344b8e;
+  min-height: 90px;
+  background-color: #273a71;
 }
 footer div li {
   margin-top: 30px;
