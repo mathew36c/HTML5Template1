@@ -10,7 +10,7 @@ https://mathew36c.github.io/html5-responsive/
 
 Thanks,
 
-Mathew Oscar Garalde
+Mathew Oscar Garalde  
 contact@mathewgaralde.com
 
 
